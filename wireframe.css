@@ -1,4 +1,49 @@
-.widebox{
-    padding: 15px;
+.tallboxleft{
     background-color: lightgray;
+    margin: 10px;
+    /* padding: 5px; */
+    width: 600px;
+    float: left;
+}
+.tallboxright{
+    float: right;
+    /* margin: 10px; */
+    padding: 5px;
+    width: 600px;
+    background-color: lightgray;
+}
+.tallboxes{
+    width: 700px;
+    height: 500px;
+}
+
+.body{
+text-align: center;
+background-color: darkgray;
+/* column-count: 3; */
+}
+.widebox{
+padding: 25px;
+background-color: lightgray;
+margin: 10px
+}
+.footer{
+clear:both;
+}
+
+.article{
+background-color: darkgray;
+position: relative;
+/* height: 300px; */
+width: 550px;
+margin: auto;
+margin-top: 5%;
+padding: 10px 20px;
+}
+.smallbox{
+background-color: lightgray;
+width: 500px;
+padding: 10px 20px;
+margin-top: 25%;
+position: relative;
 }
